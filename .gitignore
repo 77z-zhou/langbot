@@ -12,4 +12,4 @@ wheels/
 
 
 # test
-tests/*.py
+tests/
