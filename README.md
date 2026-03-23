@@ -29,7 +29,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/langbot.git
+git clone https://github.com/77z-zhou/langbot.git
 cd langbot
 
 # 使用 uv 安装（推荐）
