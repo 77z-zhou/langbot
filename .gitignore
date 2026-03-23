@@ -208,6 +208,6 @@ __marimo__/
 
 
 # tests
-.tests/
+tests/
 
-.~/
+~/
