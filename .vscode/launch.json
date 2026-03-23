@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "LangBot Interactive",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "langbot",
+            "args": ["agent"],
+            "console": "externalTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONWARNINGS": "ignore"
+            }
+        },
+        {
+            "name": "LangBot Single Message",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "langbot",
+            "args": ["agent", "-m", "给我讲个笑话"],
+            "justMyCode": false,
+            "env": {
+                "PYTHONWARNINGS": "ignore"
+            }
+        },
+        {
+            "name": "LangBot Gateway",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "langbot",
+            "args": ["gateway"],
+            "justMyCode": false,
+            "env": {
+                "PYTHONWARNINGS": "ignore"
+            }
+        }
+    ]
+}
